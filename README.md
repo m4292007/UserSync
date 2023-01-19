@@ -1,5 +1,24 @@
 # UserSync service
 
+## How to run
+
+1. Requirements:
+
+- Node.js
+- npm
+
+2. Install required dependencies:
+
+```
+npm install
+```
+
+3. Run the service:
+
+```
+npm start
+```
+
 ## Endpoints
 
 - `/UserSync/uid`
