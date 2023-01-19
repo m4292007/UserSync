@@ -8,7 +8,7 @@ app.get('/UserSync/uid', (req, res) => {
     res.send(u_id)
 })
 
-app.get('/sync', (req, res) => {
+app.get('/UserSync/sync', (req, res) => {
     res.redirect('https://cm-exchange.toast.com/bi/pixel?cm_mid=1330086872&toast_push') // Real DSP cookie generation endpoint
     // res.redirect('https://maru.admaru.com/UserSync/pixel') // mock DSP
 })
