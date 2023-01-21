@@ -33,6 +33,10 @@ This endpoint redirects to the dsp cookie generation endpoint which should redir
 
 Used for testing purposes
 
+## Turning on HTTPS
+
+To turn on HTTPS server, you need to specify the cert path in `.env` file (by default this line is commented).
+
 ## Screenshots
 
 - request with cookie
